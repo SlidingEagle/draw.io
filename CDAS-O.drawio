@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T04:41:36.100Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="L6Pu56nAdL0V240vV-XT" version="22.1.18" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-01-29T06:00:16.845Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="yOg765bIxG2kxQhJ_42O" version="22.1.18" type="github" pages="4">
   <diagram name="技术路线" id="mQ3hRHiPFnWna2RphFUt">
     <mxGraphModel dx="1962" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -380,7 +380,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xLzSCaej47q-YEIKP9gT" name="CDAS-O Warning">
-    <mxGraphModel dx="1962" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="2362" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -388,7 +388,7 @@
           <mxGeometry x="-280" y="200" width="590" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xuG2ltUH9UKaSQXEA_Eq-2" value="$$b(\widehat{\mathbb{a}_{t}^{Ego&#39;(k)}}^{CDAS-O})&amp;lt;p^{min}_{warn}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-360" y="390" width="390" height="30" as="geometry" />
+          <mxGeometry x="-480" y="355" width="390" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xuG2ltUH9UKaSQXEA_Eq-3" value="$$H(\widehat{\widehat{X_{t+1}}^{Ego}}^{CDAS-O})&amp;gt;p^{max}_{entropy}&amp;nbsp;$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-180" y="360" width="420" height="30" as="geometry" />
@@ -424,43 +424,70 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3hePErWoB-hiRgewPzNB-8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="-146" y="515" width="30" height="30" as="geometry" />
+          <mxGeometry x="264" y="195" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3hePErWoB-hiRgewPzNB-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="-146" y="595" width="30" height="30" as="geometry" />
+          <mxGeometry x="264" y="275" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3hePErWoB-hiRgewPzNB-10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="-146" y="680" width="30" height="30" as="geometry" />
+          <mxGeometry x="264" y="360" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3hePErWoB-hiRgewPzNB-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="3hePErWoB-hiRgewPzNB-9" target="3hePErWoB-hiRgewPzNB-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-196" y="625" as="sourcePoint" />
-            <mxPoint x="-146" y="575" as="targetPoint" />
+            <mxPoint x="214" y="305" as="sourcePoint" />
+            <mxPoint x="264" y="255" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3hePErWoB-hiRgewPzNB-13" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="3hePErWoB-hiRgewPzNB-10" target="3hePErWoB-hiRgewPzNB-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-160" y="689" as="sourcePoint" />
-            <mxPoint x="-100" y="660" as="targetPoint" />
+            <mxPoint x="250" y="369" as="sourcePoint" />
+            <mxPoint x="310" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3hePErWoB-hiRgewPzNB-16" value="$$ b(\widehat{\mathbb{a}_{t}^{Ego&#39;(k)}}^{CDAS-O}) \geq p^{min}_{warn} ||&lt;br&gt;H(\widehat{\widehat{X_{t+1}}^{Ego}}^{CDAS-O})\leq p^{max}_{entropy} $$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-146" y="670" width="420" height="40" as="geometry" />
+          <mxGeometry x="264" y="350" width="420" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3hePErWoB-hiRgewPzNB-17" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;warning&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-170" y="150" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3hePErWoB-hiRgewPzNB-18" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;no warning&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-186" y="470" width="110" height="30" as="geometry" />
+          <mxGeometry x="224" y="150" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="quGkIeUmv8Xi9Rg_ytbn-1" value="$$b(\widehat{\mathbb{a}_{t}^{Ego(k)}}^{CDAS-O})&amp;gt;p^{max}_{warn}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-220" y="280" width="390" height="30" as="geometry" />
         </mxCell>
         <mxCell id="quGkIeUmv8Xi9Rg_ytbn-2" value="$$b(\widehat{\mathbb{a}_{t}^{Ego(k)}}^{CDAS-O})&amp;gt;p^{max}_{warn}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-220" y="595" width="390" height="30" as="geometry" />
+          <mxGeometry x="190" y="275" width="390" height="30" as="geometry" />
         </mxCell>
         <mxCell id="quGkIeUmv8Xi9Rg_ytbn-3" value="$$\widehat{\mathcal{U}_t^{Ego-}}^{CDAS-O}(\widehat{\mathbb{X}_{risk}^{(k)}}^{CDAS-O}) &amp;gt; r^{CDAS-O}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-280" y="510" width="590" height="30" as="geometry" />
+          <mxGeometry x="130" y="190" width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tFXv52k575d83Nle1TOs-1" value="$$\widehat{a_{t+1}^{Ego(\widehat{X})}}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="462.5" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XnYiO2VOMCNjVMkwuQL3-1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;cAction =&amp;nbsp;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="470" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XnYiO2VOMCNjVMkwuQL3-2" value="oAction = closest car&#39;s orientation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="497.5" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XnYiO2VOMCNjVMkwuQL3-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-185" y="400" as="sourcePoint" />
+            <mxPoint x="-210" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TwEMkOPcEkg5bdcdZODn-1" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-85.5" y="400" as="sourcePoint" />
+            <mxPoint x="-50" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TwEMkOPcEkg5bdcdZODn-3" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;cAction = Maintain / Decelerate &lt;br&gt;(depends on the closest car&#39;s orientation)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="467.5" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TwEMkOPcEkg5bdcdZODn-4" value="oAction = closest car&#39;s orientation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="497.5" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1216,8 +1243,8 @@
         <mxCell id="vEoCrquzgFMo_yxWuql3-42" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;$$Perception$$&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="192" y="700" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vEoCrquzgFMo_yxWuql3-46" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;$$ Warning $$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-314" y="670" width="110" height="30" as="geometry" />
+        <mxCell id="vEoCrquzgFMo_yxWuql3-46" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;$$ Risk Analyze $$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-329" y="670" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vEoCrquzgFMo_yxWuql3-47" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;$$\widehat{Risk_{con}^{Ego}}$$&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-303" y="750" width="86" height="30" as="geometry" />
