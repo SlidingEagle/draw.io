@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T04:58:38.012Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="x36Iudj8_aCyl70YRs-Q" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-29T08:50:03.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="ffdV4II5cKkHD9x_aXja" version="23.1.7" type="github">
   <diagram name="EPAI_Java_toModelTrain" id="7vfjrfQk3Y2i5-ylq0UO">
-    <mxGraphModel dx="1000" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1167" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="3buf4coTO02b-s-pbajk-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3buf4coTO02b-s-pbajk-1" target="3buf4coTO02b-s-pbajk-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3buf4coTO02b-s-pbajk-1" value="根据id和username在数据库中查找model (modelResult)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3buf4coTO02b-s-pbajk-1" value="数据库查找id和username对应的Model" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3buf4coTO02b-s-pbajk-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3buf4coTO02b-s-pbajk-2" target="3buf4coTO02b-s-pbajk-5">
@@ -31,13 +31,13 @@
         <mxCell id="3buf4coTO02b-s-pbajk-3" value="websocket传前端：“生成配置文件”" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3buf4coTO02b-s-pbajk-4" value="判断数据集是否转换" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="315" y="460" width="130" height="60" as="geometry" />
+        <mxCell id="3buf4coTO02b-s-pbajk-4" value="判断该LabelTask的数据格式是否转换成了JSON" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="460" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3buf4coTO02b-s-pbajk-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3buf4coTO02b-s-pbajk-5" target="3buf4coTO02b-s-pbajk-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3buf4coTO02b-s-pbajk-5" value="数据库查找model对应的数据集(LabelTask)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3buf4coTO02b-s-pbajk-5" value="数据库查找model对应的LabelTask" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3buf4coTO02b-s-pbajk-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3buf4coTO02b-s-pbajk-4" target="3buf4coTO02b-s-pbajk-3">
@@ -50,7 +50,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3buf4coTO02b-s-pbajk-10" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="265" y="458" width="30" height="30" as="geometry" />
+          <mxGeometry x="250" y="460" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3buf4coTO02b-s-pbajk-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" target="3buf4coTO02b-s-pbajk-13" parent="1" source="3buf4coTO02b-s-pbajk-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -62,7 +62,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3buf4coTO02b-s-pbajk-12" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="520" y="460" width="30" height="30" as="geometry" />
+          <mxGeometry x="490" y="460" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3buf4coTO02b-s-pbajk-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3buf4coTO02b-s-pbajk-13" target="3buf4coTO02b-s-pbajk-18">
           <mxGeometry relative="1" as="geometry" />
@@ -73,13 +73,13 @@
         <mxCell id="3buf4coTO02b-s-pbajk-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3buf4coTO02b-s-pbajk-18" target="3buf4coTO02b-s-pbajk-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3buf4coTO02b-s-pbajk-18" value="生成labelme文件至minio(addDataSetTominio&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3buf4coTO02b-s-pbajk-18" value="&lt;b&gt;addDataSetTominio()&lt;/b&gt;与minio交互生成json格式的labelme文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3buf4coTO02b-s-pbajk-22" value="数据格式转换(dataFormatTransform)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3buf4coTO02b-s-pbajk-22" value="&lt;b&gt;dataFormatTransform()&lt;/b&gt;数据格式转换" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="760" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3buf4coTO02b-s-pbajk-24" value="centerSender.sendPythonMq()&lt;br&gt;发送到&quot;mission_add&quot;交换机" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3buf4coTO02b-s-pbajk-24" value="&lt;b&gt;centerSender.sendPythonMq()&lt;/b&gt;&lt;br&gt;发送到&quot;mission_add&quot;交换机&lt;br&gt;task_type=2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3buf4coTO02b-s-pbajk-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3buf4coTO02b-s-pbajk-25" target="3buf4coTO02b-s-pbajk-24">
@@ -94,7 +94,7 @@
             <mxPoint x="620" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3buf4coTO02b-s-pbajk-32" value="centerSender.sendWebData()&lt;br&gt;发送至&quot;DataExchange&quot;交换机" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3buf4coTO02b-s-pbajk-32" value="&lt;b&gt;centerSender.sendWebData()&lt;/b&gt;&lt;br&gt;发送至&quot;DataExchange&quot;交换机" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3buf4coTO02b-s-pbajk-35" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3buf4coTO02b-s-pbajk-2" target="3buf4coTO02b-s-pbajk-32">
@@ -103,7 +103,7 @@
             <mxPoint x="480" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3buf4coTO02b-s-pbajk-36" value="centerSender.sendPythonMq()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;发送到&quot;mission_add&quot;交换机" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3buf4coTO02b-s-pbajk-36" value="&lt;b&gt;centerSender.sendPythonMq()&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;发送到&quot;mission_add&quot;交换机&lt;br&gt;task_type=0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3buf4coTO02b-s-pbajk-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3buf4coTO02b-s-pbajk-37" target="3buf4coTO02b-s-pbajk-36">
@@ -145,7 +145,7 @@
         <mxCell id="3buf4coTO02b-s-pbajk-51" value="&lt;b style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;RabbitMQ&lt;/font&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="895" y="690" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3buf4coTO02b-s-pbajk-52" value="create_MQ()创建connection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3buf4coTO02b-s-pbajk-52" value="&lt;b&gt;create_MQ()&lt;/b&gt;创建connection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1240" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3buf4coTO02b-s-pbajk-54" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="3buf4coTO02b-s-pbajk-1">
@@ -157,10 +157,10 @@
         <mxCell id="3buf4coTO02b-s-pbajk-55" value="PostMapping: &quot;/model/train&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="300" y="90" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3buf4coTO02b-s-pbajk-56" value="listen_channel()&lt;br&gt;监听消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3buf4coTO02b-s-pbajk-56" value="&lt;b&gt;listen_channel()&lt;/b&gt;&lt;br&gt;监听消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1380" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3buf4coTO02b-s-pbajk-57" value="python_listen_service_callback()&lt;br&gt;处理消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3buf4coTO02b-s-pbajk-57" value="&lt;b&gt;python_listen_service_callback()&lt;/b&gt;&lt;br&gt;处理消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1250" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3buf4coTO02b-s-pbajk-59" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Python端&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -259,6 +259,15 @@
         </mxCell>
         <mxCell id="3buf4coTO02b-s-pbajk-104" value="Main.py" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1270" y="410" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3buf4coTO02b-s-pbajk-105" value="minio" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="660" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3buf4coTO02b-s-pbajk-106" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;startWidth=11.891891891891891;startSize=2.827027027027027;endWidth=11.891891891891891;endSize=2.827027027027027;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="610" y="690" as="sourcePoint" />
+            <mxPoint x="670" y="690" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
