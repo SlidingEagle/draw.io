@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T03:09:51.061Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="dm80JUbEkeOJS-9yCzn4" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-12T08:11:14.364Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="di4V1qeVxvWgR7fj2UNO" version="24.4.13" type="github">
   <diagram name="第 1 页" id="pFjIZeC7h0T4rhKodFum">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,20 +85,44 @@
             <mxPoint x="790" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h8nGuR-rwOSQyPATIooY-1" value="模型运行服务" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="h8nGuR-rwOSQyPATIooY-1" value="模型运行服务" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="270" y="335" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="h8nGuR-rwOSQyPATIooY-2" value="企业相关的插件" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="h8nGuR-rwOSQyPATIooY-2" value="企业相关的插件" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="415" y="280" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="h8nGuR-rwOSQyPATIooY-3" value="业务相关service层、数据库强相关的po层" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="h8nGuR-rwOSQyPATIooY-3" value="业务相关service层、数据库强相关的po层" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="460" y="130" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="h8nGuR-rwOSQyPATIooY-4" value="监控、spark等杂项" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="h8nGuR-rwOSQyPATIooY-4" value="监控、spark等杂项" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="840" y="350" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="h8nGuR-rwOSQyPATIooY-5" value="数据库无关的VO、DTO层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="h8nGuR-rwOSQyPATIooY-5" value="数据库无关的VO、DTO层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="820" y="158" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-l04GpSZ2J9WOiK1gL53-1" value="XxlJobFeign" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="640" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-l04GpSZ2J9WOiK1gL53-2" value="ConsoleServerFeign" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="640" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-l04GpSZ2J9WOiK1gL53-3" value="cbimap-dp-biz-console.ScheduleTaskServiceImpl" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="480" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-l04GpSZ2J9WOiK1gL53-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-l04GpSZ2J9WOiK1gL53-3" target="-l04GpSZ2J9WOiK1gL53-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="380" as="sourcePoint" />
+            <mxPoint x="490" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-l04GpSZ2J9WOiK1gL53-5" value="cbimap-dp-biz-executor.RiskModelV1JobHandler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="800" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-l04GpSZ2J9WOiK1gL53-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-l04GpSZ2J9WOiK1gL53-1" target="-l04GpSZ2J9WOiK1gL53-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="520" as="sourcePoint" />
+            <mxPoint x="650" y="520" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
