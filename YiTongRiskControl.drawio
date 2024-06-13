@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T03:12:07.672Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="9XUKIH99xDirVDv3XYfd" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T08:20:50.428Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="OqZxCXt4VXHbRy9Sm7Fm" version="24.5.3" type="github">
   <diagram name="第 1 页" id="pFjIZeC7h0T4rhKodFum">
     <mxGraphModel dx="1834" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -127,10 +127,10 @@
             <mxPoint x="555" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="apoiJXRifTdIaZTqekJm-1" value="console: localhost:9006" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="apoiJXRifTdIaZTqekJm-1" value="console: localhost:9007" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-20" y="580" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="apoiJXRifTdIaZTqekJm-2" value="executor: localhost:9007" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="apoiJXRifTdIaZTqekJm-2" value="executor: localhost:9006" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="150" y="580" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="apoiJXRifTdIaZTqekJm-3" value="xxl-job&lt;span style=&quot;background-color: initial;&quot;&gt;: localhost:8082&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -198,6 +198,9 @@
             <mxPoint x="995" y="595" as="sourcePoint" />
             <mxPoint x="1045" y="570" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="apoiJXRifTdIaZTqekJm-20" value="&quot;添加batchSize&quot;逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="828" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
