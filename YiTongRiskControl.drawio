@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T02:20:56.452Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="xPXIEDKntLsh2AbX7FJ9" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T03:12:07.672Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="9XUKIH99xDirVDv3XYfd" version="24.5.3" type="github">
   <diagram name="第 1 页" id="pFjIZeC7h0T4rhKodFum">
     <mxGraphModel dx="1834" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="apoiJXRifTdIaZTqekJm-19" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="apoiJXRifTdIaZTqekJm-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-40" y="560" width="320" height="210" as="geometry" />
         </mxCell>
         <mxCell id="JhVvmMiedUeNjTpxYXZy-1" value="cbimap-dp-server-console" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
@@ -106,7 +106,7 @@
         <mxCell id="-l04GpSZ2J9WOiK1gL53-1" value="XxlJobFeign.TriggerJob()转发请求至/xxl-job/jobinfo/trigger" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="545" y="570" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-l04GpSZ2J9WOiK1gL53-2" value="通过执行器找到绑定的JobHandler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="-l04GpSZ2J9WOiK1gL53-2" value="通过任务找到相应的执行器，再转发到执行器绑定的JobHandler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="705" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-l04GpSZ2J9WOiK1gL53-3" value="接收请求runTaskOnce/{id}，&lt;span style=&quot;background-color: initial;&quot;&gt;至ScheduleTaskServiceImpl.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;runTaskOnce()&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
