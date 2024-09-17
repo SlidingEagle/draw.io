@@ -2431,14 +2431,14 @@
         <mxCell id="rxhm3ji5CSBE-87wMRYM-50" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-288.25" y="2256.5" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rxhm3ji5CSBE-87wMRYM-51" value="&lt;b&gt;Parameter&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-218.25" y="2256.5" width="80" height="30" as="geometry" />
+        <mxCell id="rxhm3ji5CSBE-87wMRYM-51" value="&lt;b&gt;States&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-218" y="2256.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rxhm3ji5CSBE-87wMRYM-52" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-288.25" y="2311.5" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rxhm3ji5CSBE-87wMRYM-53" value="&lt;b&gt;Module&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-220.75" y="2311.5" width="70" height="30" as="geometry" />
+        <mxCell id="rxhm3ji5CSBE-87wMRYM-53" value="&lt;b&gt;Operations&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-219.25" y="2311.5" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
