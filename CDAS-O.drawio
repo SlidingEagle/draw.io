@@ -1347,13 +1347,13 @@
         <mxCell id="9LnnEnPon9RUy3Fis3rg-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="536.38" y="825.12" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9LnnEnPon9RUy3Fis3rg-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;参数&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="9LnnEnPon9RUy3Fis3rg-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;状态&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="608.88" y="820.12" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9LnnEnPon9RUy3Fis3rg-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="536.38" y="880.12" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9LnnEnPon9RUy3Fis3rg-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;模块&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="9LnnEnPon9RUy3Fis3rg-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;操作&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="608.88" y="875.12" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VZCCflnBduGmAsIUbIWz-187" value="&lt;b&gt;&lt;i&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;驾驶风格认知更新&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
@@ -3036,8 +3036,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pf4l_rl7P8IBY5DN0J0Y-13" value="&lt;i&gt;&lt;b&gt;辅助&lt;/b&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="250" y="1682" width="50" height="30" as="geometry" />
+        <mxCell id="Pf4l_rl7P8IBY5DN0J0Y-13" value="&lt;i&gt;&lt;b&gt;驾驶辅助&lt;/b&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="249" y="1682" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Pf4l_rl7P8IBY5DN0J0Y-14" value="&lt;i&gt;&lt;b&gt;动作&lt;/b&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="299" y="1607" width="50" height="30" as="geometry" />
@@ -3051,7 +3051,7 @@
         <mxCell id="Pf4l_rl7P8IBY5DN0J0Y-17" value="&lt;b&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;认知数字孪生&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="429" y="1830" width="41.25" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Pf4l_rl7P8IBY5DN0J0Y-18" value="&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;驾驶决策过程&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Pf4l_rl7P8IBY5DN0J0Y-18" value="&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;认知驾驶模型&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="220" y="1617.75" width="75" height="36.5" as="geometry" />
         </mxCell>
         <mxCell id="Pf4l_rl7P8IBY5DN0J0Y-19" value="&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;认知数字孪生&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -3134,7 +3134,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pf4l_rl7P8IBY5DN0J0Y-31" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#ff6666&quot; style=&quot;font-size: 13px;&quot;&gt;驾驶决策辅助系统&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Pf4l_rl7P8IBY5DN0J0Y-31" value="&lt;font color=&quot;#ff6666&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;认知驾驶辅助系统&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="270" y="1726" width="345" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Pf4l_rl7P8IBY5DN0J0Y-32" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.25636280567399594;endAngle=0.7436371943260041;strokeColor=#FF0000;" vertex="1" parent="1">
@@ -3222,8 +3222,8 @@
             <mxPoint x="170" y="1755" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pf4l_rl7P8IBY5DN0J0Y-50" value="&lt;b&gt;&lt;i&gt;辅助&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="52" y="1838" width="50" height="30" as="geometry" />
+        <mxCell id="Pf4l_rl7P8IBY5DN0J0Y-50" value="&lt;b&gt;&lt;i&gt;驾驶辅助&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="39" y="1838" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Pf4l_rl7P8IBY5DN0J0Y-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pf4l_rl7P8IBY5DN0J0Y-48" target="Pf4l_rl7P8IBY5DN0J0Y-46">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
