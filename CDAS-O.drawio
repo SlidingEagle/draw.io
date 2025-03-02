@@ -775,7 +775,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="J9Gg0sSxpPPUDe_epLsy" name="CDAS-O overview detail">
-    <mxGraphModel dx="2474" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="2243" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2647,7 +2647,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="09VeNjLYZB2zSiiqXkGs-43" value="&lt;b style=&quot;border-color: var(--border-color); color: rgb(255, 0, 0); font-size: 20px;&quot;&gt;驾驶决策过程&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="09VeNjLYZB2zSiiqXkGs-43" value="&lt;b style=&quot;border-color: var(--border-color); color: rgb(255, 0, 0); font-size: 20px;&quot;&gt;认知驾驶模型&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="361.5" y="2640" width="345" height="30" as="geometry" />
         </mxCell>
         <mxCell id="09VeNjLYZB2zSiiqXkGs-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="09VeNjLYZB2zSiiqXkGs-19" target="09VeNjLYZB2zSiiqXkGs-21" edge="1">
